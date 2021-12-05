@@ -1,10 +1,10 @@
+#Here is the code for my project. You will have to download some of these libraries externally with PIP.
 import pyttsx3 # pip install pyttsx3
 import speech_recognition as sr # pip install speechRecognition 
 import datetime
 import wikipedia # pip install wikipedia
 import webbrowser
 import os
-#import smtplibgab
 
 print("Starting garry")
 
@@ -49,13 +49,6 @@ def commands():
  
     return query
 
-#def sendemail(to, content):
-    #server = smtplib.SMTP('smtp.gmail.com', 587)
-    #server.ehlo()
-    #server.startttls()
-    #server.login('sharvayuc@gmail.com', 'Arduino@16')
-    #server.sendmail("sharvayuc@gmail.com", to, content)
-    #server.close()
 
 #MAIN PROGRAM
 def main():
@@ -106,6 +99,5 @@ def main():
             break
 
 speak("Starting garry...")
-#commands()
 wishMe()
 main()
